@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test_R_001Suite">
+<groups>
+<run>
+<include name="Regression"></include>  
+<exclude name="Sanity"></exclude>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Testing.Test_Reg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Test_R_001Suite -->

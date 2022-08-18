@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-17T13:54:20 IST" name="Test_R_001Suite" finished-at="2022-08-17T13:54:20 IST" duration-ms="100">
+    <groups>
+      <group name="Regression">
+        <method signature="Test_Reg.Reg()[pri:0, instance:Testing.Test_Reg@6eda5c9]" name="Reg" class="Testing.Test_Reg"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-08-17T13:54:20 IST" name="Test" finished-at="2022-08-17T13:54:20 IST" duration-ms="100">
+      <class name="Testing.Test_Reg">
+        <test-method signature="Reg()[pri:0, instance:Testing.Test_Reg@6eda5c9]" started-at="2022-08-17T13:54:20 IST" name="Reg" finished-at="2022-08-17T13:54:20 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reg -->
+      </class> <!-- Testing.Test_Reg -->
+    </test> <!-- Test -->
+  </suite> <!-- Test_R_001Suite -->
+</testng-results>
